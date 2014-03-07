@@ -23,11 +23,8 @@ import org.apache.commons.lang3.ArrayUtils;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-import cern.colt.matrix.DoubleFactory1D;
-import cern.colt.matrix.DoubleFactory2D;
 import cern.colt.matrix.DoubleMatrix1D;
 import cern.colt.matrix.DoubleMatrix2D;
-import cern.colt.matrix.linalg.Algebra;
 
 import com.joptimizer.functions.ConvexMultivariateRealFunction;
 import com.joptimizer.functions.LinearMultivariateRealFunction;
@@ -41,9 +38,9 @@ public class PrimalDualMethodHeavyTest extends TestCase {
 
 	private int dim = 10;
 	private long seed = 7654321L;
-	private Algebra ALG = Algebra.DEFAULT;
-	private DoubleFactory1D F1 = DoubleFactory1D.dense;
-	private DoubleFactory2D F2 = DoubleFactory2D.dense;
+//	private Algebra ALG = Algebra.DEFAULT;
+//	private DoubleFactory1D F1 = DoubleFactory1D.dense;
+//	private DoubleFactory2D F2 = DoubleFactory2D.dense;
 	private Log log = LogFactory.getLog(this.getClass().getName());
 
 	/**

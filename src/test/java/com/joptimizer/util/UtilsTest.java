@@ -21,7 +21,6 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
 import cern.colt.matrix.DoubleFactory1D;
-import cern.colt.matrix.DoubleFactory2D;
 import cern.colt.matrix.DoubleMatrix1D;
 import cern.colt.matrix.linalg.Algebra;
 
@@ -32,7 +31,7 @@ public class UtilsTest extends TestCase {
 
 	private Algebra ALG = Algebra.DEFAULT;
 	private DoubleFactory1D F1 = DoubleFactory1D.dense;
-	private DoubleFactory2D F2 = DoubleFactory2D.dense;
+//	private DoubleFactory2D F2 = DoubleFactory2D.dense;
 	private Log log = LogFactory.getLog(this.getClass().getName());
 
 	public void testDummy() {

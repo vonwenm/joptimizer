@@ -34,7 +34,7 @@ public class MyTask implements Callable<Integer> {
 	}
 
 	public Integer call() {
-		String str = "";
+//		String str = "";
 		long begTest = new java.util.Date().getTime();
 		System.out.println("start - Task " + seq);
 		try {

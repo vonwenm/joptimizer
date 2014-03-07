@@ -137,7 +137,7 @@ public class PrimalDualMethod extends OptimizationRequestHandler {
 		//double rCentXLtNorm = Double.NaN;
 		//double rDualXLVNorm = Double.NaN;
 		//double normRXLVt = Double.NaN;
-		double previousF0X = Double.NaN;
+//		double previousF0X = Double.NaN;
 		double previousRPriXNorm = Double.NaN;
 		double previousRDualXLVNorm = Double.NaN;
 		double previousSurrDG = Double.NaN;

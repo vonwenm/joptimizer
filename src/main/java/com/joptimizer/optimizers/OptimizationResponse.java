@@ -35,7 +35,7 @@ public class OptimizationResponse {
 
 	private double[] solution;
 	
-	private double f0;
+//	private double f0;
 
 	public void setReturnCode(int returnCode) {
 		this.returnCode = returnCode;

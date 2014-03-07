@@ -25,7 +25,6 @@ import cern.colt.matrix.DoubleFactory2D;
 import cern.colt.matrix.DoubleMatrix1D;
 import cern.colt.matrix.DoubleMatrix2D;
 import cern.colt.matrix.linalg.Algebra;
-import cern.colt.matrix.linalg.Property;
 import cern.jet.math.Functions;
 
 /**
@@ -36,7 +35,6 @@ public class KKTSolverTest extends TestCase {
 	private Algebra ALG = Algebra.DEFAULT;
 	private DoubleFactory1D F1 = DoubleFactory1D.dense;
 	private DoubleFactory2D F2 = DoubleFactory2D.dense;
-	private Property P = Property.TWELVE;
 	private Log log = LogFactory.getLog(this.getClass().getName());
 
 	public void testSolveSimple() throws Exception {

@@ -21,11 +21,8 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.apache.commons.math3.linear.Array2DRowRealMatrix;
 import org.apache.commons.math3.linear.CholeskyDecomposition;
-import org.apache.commons.math3.linear.EigenDecomposition;
 import org.apache.commons.math3.linear.RealMatrix;
 import org.apache.commons.math3.stat.descriptive.DescriptiveStatistics;
-
-import cern.colt.matrix.linalg.EigenvalueDecomposition;
 
 /**
  * @author alberto trivellato (alberto.trivellato@gmail.com)

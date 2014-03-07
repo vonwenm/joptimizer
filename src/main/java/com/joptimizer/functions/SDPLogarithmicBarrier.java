@@ -145,6 +145,7 @@ public class SDPLogarithmicBarrier implements BarrierFunction {
 			return -1;
 		}catch(NonPositiveDefiniteMatrixException ee){
 			//it does NOT mean that F is negative, it can be not definite
+			@SuppressWarnings("deprecation")
 			EigenDecomposition eFact = new EigenDecomposition(F, Double.NaN);
 			double[] eValues = eFact.getRealEigenvalues();
 			double minEigenValue = eValues[Utils.getMinIndex(eValues)];
