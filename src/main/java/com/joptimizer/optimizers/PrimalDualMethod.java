@@ -336,7 +336,7 @@ public class PrimalDualMethod extends OptimizationRequestHandler {
 			
 			if(!areAllNegative){
 				//exited from the feasible region
-				throw new Exception("Optimization failed: impossible to remain within the faesible region");
+				throw new Exception("Optimization failed: impossible to remain within the feasible region");
 			}
 			
 			log.debug("s: " + s);
